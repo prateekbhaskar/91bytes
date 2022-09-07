@@ -1,0 +1,215 @@
+/*error subtext*/
+i.error {
+    font-size: .8vw;
+    color: red;
+    position: sticky;
+    width: 328.92px;
+    height: 41.39px;
+    left: 101.26px;
+}
+
+/*page main div*/
+.custompage {
+    position: relative;
+    width: 1600px;
+    height: 1200px;
+    background: rgba(235, 252, 244, 0.42);
+}
+
+/*form div*/
+.formdiv {
+    position: absolute;
+    width: 1064.38px;
+    height: 756.89px;
+    left: 268px;
+    top: 222px;
+    background: #EBFCF4;
+}
+
+/*image in the right side*/
+.image1 {
+    position: absolute;
+    left: 51.11%;
+    right: 3.97%;
+    top: 24.12%;
+    bottom: 43.36%;
+}
+
+/*second image in the right side*/
+.image2 {
+    position: absolute;
+    left: 52.34%;
+    right: 1.7%;
+    top: 21.48%;
+    bottom: 17.83%;
+}
+
+/*actual form*/
+.formsection {
+    position: absolute;
+    width: 532.19px;
+    height: 764.28px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 0px 51.7405px 51.7405px 0px;
+}
+
+/*logo*/
+.logo {
+    position: absolute;
+    width: 82.78px;
+    height: 73.91px;
+    left: 30.31px;
+    top: 25.13px;
+    background: url(images/logo.png);
+}
+
+/*brand name*/
+.brandname {
+    position: absolute;
+    width: 111.61px;
+    height: 56.91px;
+    left: 137.48px;
+    top: 34px;
+    font-family: 'Athiti';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35.4792px;
+    line-height: 57px;
+    /* identical to box height */
+    color: #0B4654;
+}
+
+/*form name*/
+.formname {
+    position: absolute;
+    width: 200.31px;
+    height: 47.31px;
+    left: 101.26px;
+    top: 168.53px;
+    font-family: 'Athiti';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.566px;
+    line-height: 47px;
+    /* identical to box height */
+    color: #0B4654;
+}
+
+/*inputs in form*/
+form input {
+    outline: none;
+    border-style: none;
+    width: 289px;
+    height: 30px;
+    margin-top: 3px;
+    margin-left: 30px;
+
+    font-family: 'Athiti';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.8264px;
+    line-height: 19px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/*inputs in form*/
+.form-input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 328.92px;
+    height: 41.39px;
+    left: 101.26px;
+    border: 1.4783px solid rgba(11, 70, 84, 0.25);
+    border-radius: 5.91319px;
+}
+
+/* Style the form icons */
+.icon {
+    position: absolute;
+    width: 17.74px;
+    height: 17.74px;
+    left: 10.35px;
+    top: 10px;
+}
+
+/*term part in form*/
+.term {
+    position: absolute;
+    width: 151.53px;
+    height: 19.22px;
+    left: 129.35px;
+    top: 405.05px;
+    font-family: 'Athiti';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.8264px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/*radio of term in the form*/
+input[type='radio'] {
+    box-sizing: border-box;
+    position: absolute;
+    left: 101.26px;
+
+    appearance: none;
+    top: 405.79px;
+    border: 0.739149px solid rgba(11, 70, 84, 0.24);
+    border-radius: 2.9566px;
+    width: 17.74px;
+    height: 17.74px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*changing colour of raiod when checked*/
+input[type='radio']:checked {
+    background: green;
+}
+
+/*term hyperlinks*/
+span a {
+    color: #07B464;
+    text-decoration: none;
+}
+
+/*submit button*/
+input[type='submit'] {
+    position: absolute;
+    width: 328.92px;
+    height: 41.39px;
+    left: 101.26px;
+    top: 463.45px;
+    margin: 0px;
+    background: #07B464;
+    box-shadow: 0px 2.9566px 2.9566px rgba(0, 0, 0, 0.25), inset 0px 1.4783px 2.9566px rgba(255, 255, 255, 0.25), inset 0px -1.4783px 2.9566px rgba(0, 0, 0, 0.25);
+    border-radius: 11.8264px;
+    font-family: 'Athiti';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+/*submit button name*/
+input span {
+    position: absolute;
+    width: 40.65px;
+    height: 19.22px;
+    left: 144.13px;
+    top: 11.09px;
+
+    font-family: 'Athiti';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.8264px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
